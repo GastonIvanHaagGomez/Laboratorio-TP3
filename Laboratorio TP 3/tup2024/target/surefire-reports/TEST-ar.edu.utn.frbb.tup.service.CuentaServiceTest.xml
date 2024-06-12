@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ar.edu.utn.frbb.tup.service.CuentaServiceTest" time="0.045" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ar.edu.utn.frbb.tup.service.CuentaServiceTest" time="0.041" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="AR"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\bin"/>
-    <property name="sun.java.command" value="C:\Users\Gaston\AppData\Local\Temp\surefire12233546662935920531\surefirebooter1009113600495254302.jar C:\Users\Gaston\AppData\Local\Temp\surefire12233546662935920531 2024-06-12T20-15-37_256-jvmRun1 surefire8069293833903294488tmp surefire_04393840322634702944tmp"/>
+    <property name="sun.java.command" value="C:\Users\Gaston\AppData\Local\Temp\surefire14228761048125206281\surefirebooter4832778521699558907.jar C:\Users\Gaston\AppData\Local\Temp\surefire14228761048125206281 2024-06-12T20-46-33_855-jvmRun1 surefire18061307234664768331tmp surefire_015300111929556424156tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="c:\Users\Gaston\Nueva carpeta\Laboratorio-TP3\Laboratorio TP 3\tup2024\target\test-classes;c:\Users\Gaston\Nueva carpeta\Laboratorio-TP3\Laboratorio TP 3\tup2024\target\classes;C:\Users\Gaston\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Gaston\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\Gaston\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Gaston\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Gaston\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Gaston\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Gaston\.m2\repository\org\springframework\spring-context\5.3.36\spring-context-5.3.36.jar;C:\Users\Gaston\.m2\repository\org\springframework\spring-aop\5.3.36\spring-aop-5.3.36.jar;C:\Users\Gaston\.m2\repository\org\springframework\spring-beans\5.3.36\spring-beans-5.3.36.jar;C:\Users\Gaston\.m2\repository\org\springframework\spring-core\5.3.36\spring-core-5.3.36.jar;C:\Users\Gaston\.m2\repository\org\springframework\spring-jcl\5.3.36\spring-jcl-5.3.36.jar;C:\Users\Gaston\.m2\repository\org\springframework\spring-expression\5.3.36\spring-expression-5.3.36.jar;C:\Users\Gaston\.m2\repository\org\springframework\spring-test\5.3.36\spring-test-5.3.36.jar;C:\Users\Gaston\.m2\repository\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;C:\Users\Gaston\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\Gaston\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.12\byte-buddy-agent-1.14.12.jar;C:\Users\Gaston\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Gaston\.m2\repository\org\mockito\mockito-junit-jupiter\5.11.0\mockito-junit-jupiter-5.11.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Gaston\AppData\Local\Temp\surefire12233546662935920531\surefirebooter1009113600495254302.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Gaston\AppData\Local\Temp\surefire14228761048125206281\surefirebooter4832778521699558907.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.3+9-LTS"/>
@@ -59,8 +59,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testCuentaExistente" classname="ar.edu.utn.frbb.tup.service.CuentaServiceTest" time="0.025"/>
-  <testcase name="testCuentaNoSoportada" classname="ar.edu.utn.frbb.tup.service.CuentaServiceTest" time="0.011"/>
-  <testcase name="testClienteYaTieneCuentaDeEseTipo" classname="ar.edu.utn.frbb.tup.service.CuentaServiceTest" time="0.005"/>
-  <testcase name="testCuentaCreadaExitosamente" classname="ar.edu.utn.frbb.tup.service.CuentaServiceTest" time="0.004"/>
+  <testcase name="testCuentaExistente" classname="ar.edu.utn.frbb.tup.service.CuentaServiceTest" time="0.034"/>
+  <testcase name="testCuentaNoSoportada" classname="ar.edu.utn.frbb.tup.service.CuentaServiceTest" time="0.003"/>
+  <testcase name="testClienteYaTieneCuentaDeEseTipo" classname="ar.edu.utn.frbb.tup.service.CuentaServiceTest" time="0.004"/>
+  <testcase name="testCuentaCreadaExitosamente" classname="ar.edu.utn.frbb.tup.service.CuentaServiceTest" time="0"/>
 </testsuite>

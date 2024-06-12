@@ -49,11 +49,8 @@ public class ClienteService {
     }
 
 
-    public Cliente buscarClientePorDni(int dni) {
+    public Cliente buscarClientePorDni(long dni) {
         Cliente cliente = clienteDao.find(dni, true);
-        if (cliente == null) {
-            throw new IllegalArgumentException("El cliente no existe");
-        }
         return cliente;
     }
-}
+    }

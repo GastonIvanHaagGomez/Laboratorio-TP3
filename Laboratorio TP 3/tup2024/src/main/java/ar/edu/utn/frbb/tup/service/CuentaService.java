@@ -49,4 +49,17 @@ public class CuentaService {
     public Cuenta find(long id) {
         return cuentaDao.find(id);
     }
+    public boolean tipoDeCuentaSoportada(String tipoCuenta) {
+        if (tipoCuenta == null) {
+            return false;
+        }
+        switch (tipoCuenta) {
+            case "CA$":
+            case "CC$":
+            case "CAU$S":
+                return true;
+            default:
+                return false;
+        }
+    }
 }

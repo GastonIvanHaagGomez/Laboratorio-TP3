@@ -13,8 +13,8 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
 import org.mockito.junit.jupiter.MockitoExtension;
+
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
@@ -32,7 +32,7 @@ public class CuentaServiceTest {
 
     @BeforeEach
     public void setUp() {
-        MockitoAnnotations.openMocks(this);
+        // No se requiere MockitoAnnotations.openMocks(this); con MockitoExtension.class
     }
 
     @Test
@@ -43,6 +43,8 @@ public class CuentaServiceTest {
         when(cuentaDao.find(12345)).thenReturn(cuentaExistente);
 
         assertThrows(CuentaAlreadyExistsException.class, () -> cuentaService.darDeAltaCuenta(cuentaExistente, 12345678));
+
+        verify(cuentaDao, times(1)).find(12345);
     }
 
     @Test
@@ -93,5 +95,9 @@ public class CuentaServiceTest {
 
         verify(cuentaDao, times(1)).save(cuentaNueva);
     }
+
 }
+
+
+
 
