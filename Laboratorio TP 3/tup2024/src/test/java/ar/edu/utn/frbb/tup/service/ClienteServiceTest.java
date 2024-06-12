@@ -194,4 +194,10 @@ public class ClienteServiceTest {
         Cliente foundCliente = clienteService.buscarClientePorDni(26456443);
         assertEquals(pepeRino, foundCliente);
     }
+    @Test
+    public void testBuscarPorDniFalla() {
+        when(clienteDao.find(26456444, true)).thenReturn(null);
+
+        assertThrows(IllegalArgumentException.class, () -> clienteService.buscarClientePorDni(26456444));
+}
 }
